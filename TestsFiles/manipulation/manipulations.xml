@@ -1,0 +1,33 @@
+<animation>
+  <manipulation animatedShapeName="soleil">
+    <rotation angle="900">
+      <start>0</start>
+      <stop>60</stop>
+    </rotation>
+    <translation x="-100" y="-300">
+      <start>0</start>
+      <stop>80</stop>
+    </translation>
+  </manipulation >
+  <manipulation animatedShapeName="voiture">
+    <translation x="200" y="0">
+      <start>0</start>
+      <stop>55</stop>
+    </translation>
+    <translation x="-50" y="-100">
+      <start>15</start>
+      <stop>30</stop>
+    </translation>
+  </manipulation >
+  <manipulation animatedShapeName="bonhommeNeige">
+    <rotation angle="-810">
+      <start>0</start>
+      <stop>30</stop>
+    </rotation>
+    <translation x="200" y="0">
+      <start>0</start>
+      <stop>30</stop>
+    </translation>
+  </manipulation >
+</animation>
+  
