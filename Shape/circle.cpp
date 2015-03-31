@@ -19,6 +19,8 @@ void Circle::setRadius(const int _radius)
 
 void Circle::draw()
 {
-	windowAPI->setDrawingColor(fillColor);
+	windowAPI->setDrawingColor(lineColor);
 	windowAPI->drawCircle(center, radius);
+	windowAPI->setDrawingColor(fillColor);
+	windowAPI->fillCircle(center, radius);
 }
