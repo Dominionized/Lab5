@@ -14,8 +14,7 @@ OpenPolyline::~OpenPolyline()
 
 void OpenPolyline::add(const Point& _point)
 {
-	nbPoints++;
-	points.push_back(_point);
+	Shape::add(_point);
 }
 
 void OpenPolyline::draw()
