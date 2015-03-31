@@ -88,23 +88,6 @@ namespace UnitTests
 			Assert::IsTrue(exceptionThrown);
 		}
 
-		//TEST_METHOD(draw_circle_with_no_center_should_throw_exception)
-		//{
-		//	//Arrange
-
-		//	//Action
-		//	bool exceptionThrown = false;
-		//	try
-		//	{
-		//		circle->draw();
-		//	}
-		//	catch (std::runtime_error ex)
-		//	{
-		//		exceptionThrown = true;
-		//	}
-
-		//	//Assert
-		//	Assert::IsTrue(exceptionThrown);
-		//}
+		// Supprimé dernier test avec approbation de Yannick. Le centre par defaut est (0,0)
 	};
 }
