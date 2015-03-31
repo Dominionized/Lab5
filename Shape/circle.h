@@ -5,6 +5,7 @@ namespace ShapeLibrary
 {
 	class Circle : public Shape
 	{
+	public:
 		Circle(IWindowAPI& _window);
 		void setCenter(const Point& _point);
 		void setRadius(const int _radius);

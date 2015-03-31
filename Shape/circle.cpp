@@ -6,3 +6,7 @@ Circle::Circle(IWindowAPI& _window)
 	:Shape(_window)
 {
 }
+
+void Circle::draw()
+{
+}
