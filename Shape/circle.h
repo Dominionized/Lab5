@@ -3,7 +3,7 @@
 
 namespace ShapeLibrary
 {
-	class Circle
+	class Circle : public Shape
 	{
 		Circle(IWindowAPI& _window);
 		void setCenter(const Point& _point);
