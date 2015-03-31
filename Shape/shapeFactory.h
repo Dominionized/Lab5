@@ -3,7 +3,7 @@
 
 namespace ShapeLibrary
 {
-	class	ShapeFactory
+	class	ShapeFactory : public Shape
 	{
 	public:
 		ShapeFactory(IWindowAPI& _window);
