@@ -8,20 +8,20 @@ namespace UnitTests
 	TEST_CLASS(ShapeFactoryTests)
 	{
 	public:
-		//FakeWindowAPI * fakeWindowAPI;
-		//ShapeFactory * shapeFactory;
+		FakeWindowAPI * fakeWindowAPI;
+		ShapeFactory * shapeFactory;
 
-		//TEST_METHOD_INITIALIZE(ShapeFactoryTests_Initialize)
-		//{
-		//	fakeWindowAPI = new FakeWindowAPI(640,480,"Super beau dessin");
-		//	shapeFactory  = new ShapeFactory(*fakeWindowAPI);
-		//}
-		//TEST_METHOD_CLEANUP(ShapeTests_CleanUp)
-		//{
-		//	delete fakeWindowAPI;
-		//	delete shapeFactory;
-		//}
-		//
+		TEST_METHOD_INITIALIZE(ShapeFactoryTests_Initialize)
+		{
+			fakeWindowAPI = new FakeWindowAPI(640,480,"Super beau dessin");
+			shapeFactory  = new ShapeFactory(*fakeWindowAPI);
+		}
+		TEST_METHOD_CLEANUP(ShapeTests_CleanUp)
+		{
+			delete fakeWindowAPI;
+			delete shapeFactory;
+		}
+		
 		//TEST_METHOD(should_create_an_OpenPolyLine)
 		//{
 		//	//Arrange
