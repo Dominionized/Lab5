@@ -14,6 +14,10 @@ void Circle::setCenter(const Point& _point)
 
 void Circle::setRadius(const int _radius)
 {
+	if (_radius < 0)
+	{
+		throw invalid_argument("Radius must be positive.");
+	}
 	this->radius = _radius;
 }
 

@@ -51,42 +51,42 @@ namespace UnitTests
 			Assert::IsTrue(fakeWindowAPI->fillCircle_hasBeenCalled());
 		}
 
-		//TEST_METHOD(draw_circle_with_fill_and_line_color_should_draw_fill_circle_with_colored_line)
-		//{
-		//	//Arrange
-		//	circle->setCenter(Point(300, 300));
-		//	circle->setFillColor(Color::LIME);
-		//	circle->setLineColor(Color::BROWN);
+		TEST_METHOD(draw_circle_with_fill_and_line_color_should_draw_fill_circle_with_colored_line)
+		{
+			//Arrange
+			circle->setCenter(Point(300, 300));
+			circle->setFillColor(Color::LIME);
+			circle->setLineColor(Color::BROWN);
 
-		//	//Action
-		//	circle->draw();
+			//Action
+			circle->draw();
 
-		//	//Assert
-		//	Assert::IsTrue(fakeWindowAPI->fillCircle_hasBeenCalled());
-		//	Assert::IsTrue(fakeWindowAPI->drawCircle_hasBeenCalled());
-		//}
+			//Assert
+			Assert::IsTrue(fakeWindowAPI->fillCircle_hasBeenCalled());
+			Assert::IsTrue(fakeWindowAPI->drawCircle_hasBeenCalled());
+		}
 
 
-		//TEST_METHOD(set_negative_radius_should_throw_excpetion)
-		//{
-		//	//Arrange
-		//	const int INVALID_RADIUS = -1;
+		TEST_METHOD(set_negative_radius_should_throw_excpetion)
+		{
+			//Arrange
+			const int INVALID_RADIUS = -1;
 
-		//	//Action
-		//	bool exceptionThrown = false;
-		//	try
-		//	{
-		//		Circle circle(*fakeWindowAPI);
-		//		circle.setRadius(INVALID_RADIUS);
-		//	}
-		//	catch (std::invalid_argument ex)
-		//	{
-		//		exceptionThrown = true;
-		//	}
+			//Action
+			bool exceptionThrown = false;
+			try
+			{
+				Circle circle(*fakeWindowAPI);
+				circle.setRadius(INVALID_RADIUS);
+			}
+			catch (std::invalid_argument ex)
+			{
+				exceptionThrown = true;
+			}
 
-		//	//Assert
-		//	Assert::IsTrue(exceptionThrown);
-		//}
+			//Assert
+			Assert::IsTrue(exceptionThrown);
+		}
 
 		//TEST_METHOD(draw_circle_with_no_center_should_throw_exception)
 		//{
