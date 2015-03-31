@@ -3,7 +3,8 @@
 using namespace ShapeLibrary;
 
 Circle::Circle(IWindowAPI& _window)
-	:Shape(_window)
+	:Shape(_window),
+	center(Point(0,0))
 {
 }
 
