@@ -7,6 +7,18 @@ Circle::Circle(IWindowAPI& _window)
 {
 }
 
+void Circle::setCenter(const Point& _point)
+{
+	this->center = _point;
+}
+
+void Circle::setRadius(const int _radius)
+{
+	this->radius = _radius;
+}
+
 void Circle::draw()
 {
+	windowAPI->setDrawingColor(fillColor);
+	windowAPI->drawCircle(center, radius);
 }
