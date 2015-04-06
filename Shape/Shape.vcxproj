@@ -75,6 +75,7 @@
     <ClInclude Include="circle.h" />
     <ClInclude Include="closedPolyline.h" />
     <ClInclude Include="color.h" />
+    <ClInclude Include="graphicUtility.h" />
     <ClInclude Include="IWindowAPI.h" />
     <ClInclude Include="IWindowEvent.h" />
     <ClInclude Include="openPolyline.h" />
@@ -92,6 +93,7 @@
     <ClCompile Include="circle.cpp" />
     <ClCompile Include="closedPolyline.cpp" />
     <ClCompile Include="color.cpp" />
+    <ClCompile Include="graphicUtility.cpp" />
     <ClCompile Include="openPolyline.cpp" />
     <ClCompile Include="point.cpp" />
     <ClCompile Include="polygon.cpp" />
