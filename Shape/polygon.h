@@ -7,6 +7,6 @@ namespace ShapeLibrary
 	{
 	public:
 		Polygon(IWindowAPI& _window);
-		void add(const Point& _point);
+		void add(const Point& _point) override;
 	};
 }
