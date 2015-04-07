@@ -25,6 +25,9 @@
     <Filter Include="ShapeFactoryTests">
       <UniqueIdentifier>{718d8758-832b-4181-b955-f1922dfeb460}</UniqueIdentifier>
     </Filter>
+    <Filter Include="AnimationPlayerTests">
+      <UniqueIdentifier>{2cd9715c-ba54-41da-a81e-8dffe875001a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -70,6 +73,18 @@
     </ClCompile>
     <ClCompile Include="ShapeFactoryTests.cpp">
       <Filter>ShapeFactoryTests</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslationTests.cpp">
+      <Filter>AnimationRenderTests</Filter>
+    </ClCompile>
+    <ClCompile Include="RotationTests.cpp">
+      <Filter>AnimationRenderTests</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedShapeTests.cpp">
+      <Filter>AnimationRenderTests</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedShapePlayerTests.cpp">
+      <Filter>AnimationPlayerTests</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

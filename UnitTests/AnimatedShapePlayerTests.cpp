@@ -3,9 +3,9 @@
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
-namespace IntegrationTests
-{		
-	TEST_CLASS(UnitTest1)
+namespace UnitTests
+{
+	TEST_CLASS(AnimatedShapePlayerTests)
 	{
 	public:
 		

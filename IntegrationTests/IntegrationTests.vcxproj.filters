@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="DatalayerTests">
+      <UniqueIdentifier>{86af158d-6698-4ff8-8887-f6858dbfd7f5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -26,8 +29,11 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="unittest1.cpp">
-      <Filter>Fichiers sources</Filter>
+    <ClCompile Include="AnimatedShapeRepositoryTests.cpp">
+      <Filter>DatalayerTests</Filter>
+    </ClCompile>
+    <ClCompile Include="ManipulationRepositoryTests.cpp">
+      <Filter>DatalayerTests</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
