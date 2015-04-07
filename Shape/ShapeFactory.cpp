@@ -37,8 +37,8 @@ ClosedPolyline ShapeFactory::createClosedPolyLine()
 	return *closedPolyline;
 }
 
-//Polygon ShapeFactory::createPolygone()
-//{
-//	Polygon *polygon = new Polygon(*windowAPI);
-//	return *polygon;
-//}
+Polygon ShapeFactory::createPolygone()
+{
+	Polygon *polygon = new Polygon(*windowAPI);
+	return *polygon;
+}
