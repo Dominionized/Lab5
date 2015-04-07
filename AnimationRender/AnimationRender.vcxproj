@@ -69,16 +69,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AnimatedShape.h" />
+    <ClInclude Include="Manipulation.h" />
+    <ClInclude Include="Rotation.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Translation.h" />
     <ClInclude Include="windowEvent.h" />
     <ClInclude Include="WindowRender.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AnimatedShape.cpp" />
+    <ClCompile Include="Manipulation.cpp" />
+    <ClCompile Include="Rotation.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Translation.cpp" />
     <ClCompile Include="windowEvent.cpp" />
     <ClCompile Include="WindowRender.cpp" />
   </ItemGroup>

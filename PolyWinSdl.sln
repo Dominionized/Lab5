@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Datalayer", "Datalayer\Data
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntegrationTests", "IntegrationTests\IntegrationTests.vcxproj", "{26A127AA-00EE-48D2-8CEA-B2F5EE4047CA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnimationPlayer", "AnimationPlayer\AnimationPlayer.vcxproj", "{1CFB8F86-6D1C-423E-B370-35596BD06E50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -45,6 +47,10 @@ Global
 		{26A127AA-00EE-48D2-8CEA-B2F5EE4047CA}.Debug|Win32.Build.0 = Debug|Win32
 		{26A127AA-00EE-48D2-8CEA-B2F5EE4047CA}.Release|Win32.ActiveCfg = Release|Win32
 		{26A127AA-00EE-48D2-8CEA-B2F5EE4047CA}.Release|Win32.Build.0 = Release|Win32
+		{1CFB8F86-6D1C-423E-B370-35596BD06E50}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1CFB8F86-6D1C-423E-B370-35596BD06E50}.Debug|Win32.Build.0 = Debug|Win32
+		{1CFB8F86-6D1C-423E-B370-35596BD06E50}.Release|Win32.ActiveCfg = Release|Win32
+		{1CFB8F86-6D1C-423E-B370-35596BD06E50}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
