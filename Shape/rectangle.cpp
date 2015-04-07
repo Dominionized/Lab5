@@ -18,10 +18,7 @@ void Rectangle::draw()
 {
 	if (position.x == NULL || position.y == NULL) throw runtime_error("x and y values must not be NULL");
 
-	Color* color = new Color();
-
-	windowAPI->setDrawingColor(*color);
-
+	windowAPI->setDrawingColor(lineColor);
 	windowAPI->drawRectangle(position, width, height);
 }
 

@@ -21,9 +21,7 @@ void OpenPolyline::draw()
 {
 	if (nbPoints < 2) throw runtime_error("Less than 2 points");
 
-	Color* color = new Color();
-
-	windowAPI->setDrawingColor(*color);
+	windowAPI->setDrawingColor(lineColor);
 
 	for (unsigned int i = 0; i < nbPoints - 1; i++)
 	{
