@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{DEC6EBA9-046E-4DA0-9946-5F6C3FC4801F}</ProjectGuid>
     <RootNamespace>Projet1</RootNamespace>
+    <ProjectName>AnimationPlayer</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
